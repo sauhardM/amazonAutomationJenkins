@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="driverpath" value="C:\\Users\\sauhardmishra\\eclipse-workspace\\AmazonAutomationAssignment\\Resources\\chromedriver.exe"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="chromedriver" value="webdriver.chrome.driver"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="AmazonTestCases.NavigateTestCases">
+        <methods>
+          <include name="testStatus"/>
+          <include name="startTest"/>
+          <include name="navigateTest"/>
+        </methods>
+      </class> <!-- AmazonTestCases.NavigateTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

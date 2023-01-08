@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browser" value="chrome"></parameter>
+     <parameter name="chromedriver" value="webdriver.chrome.driver"></parameter>
+     <parameter name="driverpath" value="C:\\Users\\sauhardmishra\\eclipse-workspace\\AmazonAutomationAssignment\\Resources\\chromedriver.exe"></parameter>
+	<test thread-count="5" name="Test">
+	  
+	  <classes>
+	  		<!--' ((Char - '-') ('-' (Char - '-')))* '-->
+	  		<!--' ((Char - '-') AmazonAutomationAssignment.LoginTestCases.LoginTest ('-' (Char - '-')))* '-->
+	  		<!--' ((Char - '-') LogoutTestCases.LogOutTest ('-' (Char - '-')))* '-->
+	  		<!--' ((Char - '-') SearchingProductsTestCases.SearchingProduct ('-' (Char - '-')))* '-->
+	  		<!--' ((Char - '-') AddToCartTestCases.AddToCartTest ('-' (Char - '-')))* '-->
+	  		<!--' ((Char - '-')AmazonTestCases.BuyNowTestCases ('-' (Char - '-')))* '-->
+	  		<!--' ((Char - '-')AmazonTestCases.SideBarTestCases ('-' (Char - '-')))* '-->
+	  		<!--' ((Char - '-') AmazonTestCases.FilterSearch ('-' (Char - '-')))* '-->
+	  		<!--' ((Char - '-') AmazonTestCases.ProductQuantityTestCases('-' (Char - '-')))* '-->
+	  		<!--' ((Char - '-') AmazonTestCases.LanguageTestCases('-' (Char - '-')))* '-->
+	  		<!--' ((Char - '-') AmazonTestCases.LanguageTestCases ('-' (Char - '-')))* '-->
+			<class name="AmazonTestCases.NavigateTestCases"/>
+	  </classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
